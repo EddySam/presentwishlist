@@ -264,11 +264,12 @@ button[type="submit"] {
 .sell-list__item:hover {
     overflow: visible;
     z-index: 55;
+}
+.sell-list__inner:hover{
     background: #f8f8f8;
     -webkit-box-shadow: 1px 0px 30px 2px rgba(0,0,0,0.66);
     -moz-box-shadow: 1px 0px 30px 2px rgba(0,0,0,0.66);
     box-shadow: 1px 0px 30px 2px rgba(0,0,0,0.66);
-
 }
 .sell-list:hover .sell-list__item:before{
     position: absolute;
@@ -278,6 +279,24 @@ button[type="submit"] {
     opacity: 0.9;
     content: "";
 }
+
+.sell-list .sell-list__item:hover:before{
+    display: none;
+    z-index: 666;
+}
+
+.sell-list__item:hover .sell-list__add-to-list{
+    display: block;
+    background: #f8f8f8;
+    padding-bottom: 10px;
+}
+.sell-list__item:hover .full-text{
+    white-space:inherit;
+}
+.sell-list__add-to-list {
+    display: none;
+
+}
 .add-to-list-btn{
 
     display: block;
@@ -286,21 +305,6 @@ button[type="submit"] {
     padding: 3px 0;
     border-radius: 5px;
 
-}
-.sell-list .sell-list__item:hover:before{
-    display: none;
-}
-.sell-list__add-to-list {
-    display: none;
-
-}
-.sell-list__item:hover .sell-list__add-to-list{
-    display: block;
-    background: #f8f8f8;
-    padding-bottom: 10px;
-}
-.sell-list__item:hover .full-text{
-    white-space:inherit;
 }
 /*sell-list  end*/
 
