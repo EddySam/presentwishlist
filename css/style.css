@@ -214,10 +214,6 @@ button[type="submit"] {
     font-family: 'Signika', sans-serif;
 }
 
-.chose_presents .sell-list .col-md-4 {
-    padding: 5px;
-}
-
 .price {
     color: #d93655;
     font-size: 14px;
@@ -244,7 +240,7 @@ button[type="submit"] {
     white-space: nowrap;
     font-size: 14px;
     font-weight: 300;
-    padding-right: 20px !important;
+
 }
 
 .sell-list .added-goods img {
@@ -254,24 +250,34 @@ button[type="submit"] {
 .sell-list .added-goods p {
     color: #1b75ba;
 }
+
 .sell-list__item {
     height: 235px;
     overflow: hidden;
+    padding: 0;
 }
-.sell-list__item a:hover{
+
+.sell-list__item a:hover {
     text-decoration: none;
 }
+
 .sell-list__item:hover {
     overflow: visible;
     z-index: 55;
+
 }
-.sell-list__inner:hover{
+
+.sell-list__inner:hover {
     background: #f8f8f8;
-    -webkit-box-shadow: 1px 0px 30px 2px rgba(0,0,0,0.66);
-    -moz-box-shadow: 1px 0px 30px 2px rgba(0,0,0,0.66);
-    box-shadow: 1px 0px 30px 2px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 1px 0px 30px 2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 1px 0px 30px 2px rgba(0, 0, 0, 0.66);
+    box-shadow: 1px 0px 30px 2px rgba(0, 0, 0, 0.66);
+
 }
-.sell-list:hover .sell-list__item:before{
+.sell-list__inner{
+    padding: 15px;
+}
+.sell-list:hover .sell-list__item:before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -280,24 +286,27 @@ button[type="submit"] {
     content: "";
 }
 
-.sell-list .sell-list__item:hover:before{
+.sell-list .sell-list__item:hover:before {
     display: none;
     z-index: 666;
 }
 
-.sell-list__item:hover .sell-list__add-to-list{
+.sell-list__item:hover .sell-list__add-to-list {
     display: block;
     background: #f8f8f8;
     padding-bottom: 10px;
 }
-.sell-list__item:hover .full-text{
-    white-space:inherit;
+
+.sell-list__item:hover .full-text {
+    white-space: inherit;
 }
+
 .sell-list__add-to-list {
     display: none;
 
 }
-.add-to-list-btn{
+
+.add-to-list-btn {
 
     display: block;
     background: #2fc10f;
@@ -306,6 +315,7 @@ button[type="submit"] {
     border-radius: 5px;
 
 }
+
 /*sell-list  end*/
 
 /* start block with added product*/
@@ -330,7 +340,7 @@ button[type="submit"] {
     font: 18px "MyriadProRegular", sans-serif;
 }
 
-.added-products{
+.added-products {
     margin-right: -15px;
     height: 550px;
     overflow-y: scroll;
@@ -373,16 +383,15 @@ button[type="submit"] {
 
 /*  start  type-off-product*/
 
-.type-off-product p{
+.type-off-product p {
     margin: 0;
 }
-.type-off-product .added-product{
+
+.type-off-product .added-product {
     float: left;
 }
 
 /*  start  type-off-product*/
-
-
 
 /*------SAVE-------*/
 .save {
@@ -403,7 +412,8 @@ button[type="submit"] {
     border: 2px solid #033357;
     border-radius: 3px;
 }
-.save a:hover{
+
+.save a:hover {
     color: #8a6d3b;
     text-decoration: none;
 }
