@@ -167,7 +167,7 @@ nav li a:hover {
 /* search start*/
 
 .searchbox {
-    background-color: #e2e2e2;
+    background-color: #eaeaea;
     padding: 5px;
     width: 100%;
     margin: auto;
@@ -177,14 +177,14 @@ nav li a:hover {
 }
 
 #search-form {
-    width: 85%;
+    width: 87%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     border-radius: 6px;
     border: none;
     color: #848484;
     font-weight: 500;
-    background-color: #e2e2e2;
+    background-color: #eaeaea;
 }
 
 #search-form:hover {
@@ -198,7 +198,7 @@ button[type="submit"] {
     background-repeat: no-repeat;
     background-position: 10px 5px;
     background-color: transparent;
-    background-size: 20px 20px;
+    background-size: 23px 23px;
     border: none;
     cursor: pointer;
 }
@@ -389,7 +389,7 @@ button[type="submit"] {
     margin: 0;
 }
 
-.type-off-product .added-product {
+.type-off-product .added-product__img {
     float: left;
 }
 
