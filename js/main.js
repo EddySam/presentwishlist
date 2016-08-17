@@ -11,13 +11,21 @@ $(document).ready(function () {
 
         $(this).closest('.sell-list__item').addClass('added');
 
+
+        //thi add block with content to added-products
+        $('.added-products').append('<div class="type-off-product" />');
+
         var this_parent = $(this).closest('.sell-list__inner');
 
-        var this_full_text = this_parent.find('.full-text').clone().addClass('full-text-added');
+        var this_full_text = this_parent.find('.full-text').clone([false, false]).addClass('full-text-added');
         
         this_full_text.appendTo('.type-off-product');
 
-        //$(this).closest('.sell-list__inner').find('.full-text').clone().addClass('full-text-added').appendTo('.type-off-product');
+
+
+
+
+
 
     });
 
