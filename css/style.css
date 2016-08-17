@@ -392,13 +392,19 @@ button[type="submit"] {
 /* end block with added product*/
 
 /*  start  type-off-product*/
-
+.type-off-product {
+    clear: both;
+    content: "";
+}
 .type-off-product p {
     margin: 0;
 }
 
 .type-off-product .added-product__img {
     float: left;
+    height:80px ;
+    width:80px ;
+
 }
 
 /*  start  type-off-product*/
