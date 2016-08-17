@@ -17,11 +17,11 @@ $(document).ready(function () {
 
         var this_parent = $(this).closest('.sell-list__inner');
 
-        var this_full_text = this_parent.find('.full-text').clone([false, false]).addClass('full-text-added');
+        var this_full_text = this_parent.find('.full-text').clone().addClass('full-text-added');
 
         var new_el = $('<div class="type-off-product" />').appendTo('.added-products');
 
-        new_el.appendTo(this_full_tex);
+        new_el.append(this_full_text);
 
 
 
