@@ -20,11 +20,11 @@ $(document).ready(function () {
         var this_full_text = this_parent.find('.full-text').clone().addClass('full-text-added');
 
         var this_full_img = this_parent.find('.add-too-list img').clone().addClass('added-product__img');
-        var this_full_price = this_parent.find('.price').clone().addClass('added-product__price').append("Best Price: ");
+        var this_full_price = this_parent.find('.price').clone().addClass('added-product__price').prependTo("Best Price: ");
 
          var this_full_amazone = $(this).closest('.sell-list__add-to-list').find('p').clone();
 
-        var new_el = $('<div class="type-off-product" />').appendTo('.added-products');
+        var new_el = $('<div class="type-off-product" />').prependTo('.added-products');
 
         new_el.append(this_full_img);
         new_el.append(this_full_text);
