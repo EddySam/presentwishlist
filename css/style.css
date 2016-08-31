@@ -29,15 +29,20 @@ body {
     background: url("../img/bg-head.png");
 
 }
+
 .sell-list .sell-list__inner .active {
     display: block;
 }
-.sell-list .added:hover{
+
+.sell-list .added:hover {
     overflow: hidden;
 }
+
 .no-active {
-    display: none;!important;
+    display: none;
+!important;
 }
+
 .container {
     max-width: 960px;
     padding: 0;
@@ -250,8 +255,10 @@ button[type="submit"] {
     white-space: nowrap;
     font-size: 14px;
     font-weight: 300;
+    max-width: 150px;
 
 }
+
 
 .sell-list .added-goods img {
     margin: 49% 0 12% 0;
@@ -284,9 +291,11 @@ button[type="submit"] {
     box-shadow: 1px 0px 30px 2px rgba(0, 0, 0, 0.66);
     z-index: 888;
 }
-.sell-list__inner{
+
+.sell-list__inner {
     padding: 15px;
 }
+
 .sell-list:hover .sell-list__item:before {
     position: absolute;
     width: 100%;
@@ -395,6 +404,21 @@ button[type="submit"] {
 .type-off-product {
     clear: both;
     content: "";
+    padding-bottom: 20px;
+    position: relative;
+}
+.type-off-product .added-products__item-brought {
+    position: absolute;
+    background: #e8e8e8;
+    opacity: 0.85;
+    top: 0;
+    display: block;
+}
+.type-off-product .added-products__item-brought p{
+    margin: 21px 56px;
+    padding: 10px;
+    background: #fff;
+    opacity: 1;
 }
 .type-off-product p {
     margin: 0;
@@ -402,9 +426,33 @@ button[type="submit"] {
 
 .type-off-product .added-product__img {
     float: left;
-    height:80px ;
-    width:80px ;
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
 
+}
+
+.full-text-added {
+    font: 20px 'Pacifico', cursive;
+    color: #1b75ba;
+    text-overflow: ellipsis;
+}
+.added-products{
+    position: relative;
+}
+.present-form-add__empty {
+
+    position: absolute;
+    top: 31%;
+    width: 286px;
+    margin-left: 20px;
+}
+
+.present-form-add__empty p {
+    font: 22px 'Pacifico', cursive;
+    color: #a3acb3;
+    margin-bottom: 29px;
+    line-height: 33px;
 }
 
 /*  start  type-off-product*/
